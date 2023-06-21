@@ -1,0 +1,122 @@
+/* Main Template.css */
+
+body{
+
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: #2A2E2D;
+
+}
+
+header{
+
+    width: 100%;
+    height: 100%;
+    background-image: url("../asset/header/BgHeader.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    margin-left: 0px;
+    float: left;
+
+}
+
+[data-MainHeader]{
+
+
+    width: 100%;
+    height:100%;
+    margin-top: 0px;
+    margin-left: 0px;
+    float: left;
+
+}
+
+[data-FrontMainHeader]{
+
+    width: 100%;
+    height: 50px;
+    background-color:#3A4241;
+    opacity: 0.9;
+    margin-top: 0px;
+    margin-left: 0px;
+    float: left;
+
+}
+[data-BackMainHeader]{
+
+    width: 100%;
+    height: calc(100% - 50px);
+    background-color: #434A49;
+    opacity: 0.4;
+    margin-top: 0px;
+    margin-left: 0px;
+    float: left;
+
+}
+
+[data-LogosSpace]{
+
+    width: 200px;
+    height: 50px;
+    margin-top: 0px;
+    margin-left: 20px;
+    float: left;
+
+}
+
+[data-ImgLogos]{
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px#D21E43;
+    margin-top: 0px;
+    margin-left: 0px;
+    float: left;
+
+}
+
+[data-WebTitle]{
+
+    font-size: 22px;
+    text-shadow: 3px 3px 3px#D21E43;
+    margin-top: 10px;
+    margin-left: 0px;
+    float: left;
+
+}
+
+[data-ContentBackContent]{
+
+    width: 100%;
+    height: calc(100% - 50px);
+    position: absolute;
+    z-index: 1;
+    top: 50px;
+    left: 0px;
+
+}
+
+[data-CutBackContent1]{
+
+    width: 100%;
+    height: 200px;
+    position: relative;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+
+}
+
+[data-DescriptionTitle]{
+
+    display: flex;
+    font-size: 28px;
+    text-shadow: 3px 3px 3px#D21E43;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    top: 80px;
+
+}
