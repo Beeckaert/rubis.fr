@@ -1,5 +1,7 @@
 /* template menu header */
 
+/* nav directory */
+
 [data-MainMenuHeader], [data-UlMenuHeader]{
 
     width: calc(130px * 5);
@@ -17,6 +19,8 @@
 
 }
 
+/* style compeant head Menu */
+
 [data-Link], [data-LinkCompenant]{
 
     width: 130px;
@@ -27,11 +31,21 @@
 
 }
 
+/* content comptenant and content text */
+
 #Content{
 
     background-color: #D21E43;
 
 }
+
+#TextContent{
+
+    text-shadow: 4px 4px 4px black;
+
+}
+
+/* style default text link */
 
 [data-LinkText]{
 
@@ -40,7 +54,10 @@
     text-shadow: 4px 4px 4px black;
     justify-content: center;
     margin-top: 10px;
+
 }
+
+/* idder text link */
 
 #TextAvantPropos,
 #TextBlog,
@@ -49,11 +66,5 @@
 #TextPartenaria{
 
     text-shadow: 4px 4px 4px #D21E43;
-
-}
-
-#TextContent{
-
-    text-shadow: 4px 4px 4px black;
 
 }
