@@ -104,6 +104,7 @@ header{
 
     width: 100%;
     height: calc(100% - 50px);
+    overflow: hidden;
     position: absolute;
     z-index: 1;
     top: 50px;
@@ -124,16 +125,63 @@ header{
 
 }
 
+
+/* cup new info */
+
+[data-CutBackContent2]{
+
+    width: 35%;
+    height: calc(100% - 200px);
+    margin-top: 0px;
+    margin-left: 0px;
+    float: left
+
+}
+
+[data-CutBackContent3]{
+
+    width: calc(65% - 2px);
+    height: calc(100% - 260px);
+    border-left: 2px solid white;
+    margin-top: 0px;
+    margin-left: 0px;
+    float: left;
+
+}
+
 /* description title */
 
 [data-DescriptionTitle]{
 
     display: flex;
     font-size: 28px;
-    text-shadow: 3px 3px 3px#D21E43;
+    text-shadow: 3px 3px 3px black;
     justify-content: center;
     position: relative;
     z-index: 1;
     top: 80px;
+
+}
+
+[data-LogosDisplayMainInfo]{
+
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px#D21E43;
+    margin-top: 0px;
+    margin-left: 110px;
+    float: left;
+
+}
+
+[data-TextNewPresentationPage]{
+
+  
+    font-size: 24px;
+    text-shadow: 3px 3px 3px black;
+    margin-top: 80px;
+    margin-left: 10px;
+
 
 }
