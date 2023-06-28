@@ -1,0 +1,115 @@
+/* Main Template.css *by système Rubis */
+
+/* logo space style */
+
+[data-LogosSpace]{
+
+    width: 150px;
+    height: 50px;
+    margin-top: 0px;
+    margin-left: 0px;
+    float: left;
+
+}
+
+
+/* Img Logos Space Style */
+
+[data-ImgLogosSpace]{
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px #D21E43;
+    margin-top: 2px;
+    margin-left: 0px;
+    float: left;
+
+}
+
+/* Main Title Web Site logos space style */
+
+[data-WebTitleLogosSpace]{
+
+    font-size: 22px;
+    text-shadow: 3px 3px 3px #D21E43;
+    margin-top: 8px;
+    margin-left: 10px;
+    float: left;
+
+}
+
+/*  cut separation content style */
+
+[data-CutBackSepContent1]{
+
+    width: 100%;
+    height: 200px;
+    position: relative;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+
+}
+
+[data-CutBackSepContent2]{
+
+    width: 35%;
+    height: calc(100% - 200px);
+    margin-top: 0px;
+    margin-left: 0px;
+    float: left
+
+}
+
+[data-CutBackSepContent3]{
+
+    width: calc(65% - 2px);
+    height: calc(100% - 260px);
+    border-left: 2px solid white;
+    margin-top: 0px;
+    margin-left: 0px;
+    float: left;
+
+}
+
+/* Description Main Header Web Site Rubis Community content style */
+
+[data-DescriptionWebSiteTitleHeader]{
+
+    display: flex;
+    font-size: 28px;
+    text-shadow: 3px 3px 3px black;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    top: 80px;
+
+}
+
+/* Logos Main Header Content style */
+
+[data-LogosMainHeaderContent]{
+
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px#D21E43;
+    margin-top: 0px;
+    margin-left: 110px;
+    float: left;
+
+}
+
+/* text explication Web Site main Header */
+
+[data-TextExplicationWebSiteMainHeader]{
+
+  
+    font-size: 24px;
+    text-shadow: 3px 3px 3px black;
+    margin-top: 80px;
+    margin-left: 10px;
+
+
+}

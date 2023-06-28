@@ -1,3 +1,5 @@
+<!-- Main Template.css *by système Rubis -->
+
 <!DOCTYPE html>
 
 <html lang ="fr">
@@ -23,7 +25,6 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
         
-
         <!-- framework -->
 
         <link rel ="stylesheet" type ="text/css" href ="framework/reset.css"/>
@@ -36,6 +37,7 @@
         <!-- Main css -->
         
         <link rel ="stylesheet" type ="text/css" href ="css/template.css"/>
+        <link rel ="stylesheet" type ="text/css" href ="css/MainHeaderContent.css"/>
         <link rel ="stylesheet" type ="text/css" href ="css/MenuHeader.css"/>
 
     </head>
@@ -44,27 +46,27 @@
 
         <!-- Main Header -->
 
-        <header>
+        <header id ="GetMainHeader">
 
             <!-- in the header -->
  
-            <div data-MainHeader>
+            <div data-MainHeaderContent id ="GetMainHeaderContent">
 
                 <!-- header content -->
 
-                <div data-FrontMainHeader>
+                <div data-FrontMainHeader id ="GetFrontMainHeaderContent">
 
                     <!-- logo space -->
 
-                    <div data-LogosSpace>
+                    <div data-LogosSpace id ="GetLogosSpace">
 
-                        <!-- display Logos -->
+                        <!-- Img Logos Space -->
 
-                        <img data-ImgLogos src ="asset/header/Logos.png"/>
+                        <img data-ImgLogosSpace id ="GetImgLogosSpace" src ="asset/header/Logos.png"/>
 
-                        <!-- Main Title Web Site -->
+                        <!-- Main Title Web Site logos space -->
 
-                        <h1 data-WebTitle data-Anton>Rubis.fr</h1>
+                        <h1 data-WebTitleLogosSpace id ="GetWebTitleLogosSpace" data-Anton>Rubis.fr</h1>
 
                     </div>
 
@@ -86,35 +88,37 @@
 
                 </div>
 
-                <!-- back header content -->
+                <!-- back fake content opacity (no-content) -->
 
-                <div data-BackMainHeader></div>
+                <div data-FakeBackMainHeaderContent id ="GetFakeBackMainHeaderContent"></div>
 
-                <!-- content back content 1 -->
+                <!-- conpenant back no-opacity (content) -->
 
-                <div data-ContentBackContent>
+                <div data-ContentBackHeader id ="GetContentBackHeader">
 
-                        <div data-CutBackContent1>
+                        <!-- cut separation content -->
 
-                            <!-- Main Description Main Web Site Rubis Comunity -->
+                        <div data-CutBackSepContent1 id ="GetCutBackSepContent1">
 
-                            <h2 data-DescriptionTitle data-Anton>Bienvenue sur le site officiel de rubis community</h2>
+                            <!-- Description Main Header Web Site Rubis Community content -->
 
-                        </div>
-
-                        <div data-CutBackContent2>
-
-                            <!-- Logo Content new Page -->
-
-                            <img data-LogosDisplayMainInfo src ="asset/header/Logos.png"/>
+                            <h2 data-DescriptionWebSiteTitleHeader id ="GetDescriptionWebSiteTitleHeader" data-Anton>Bienvenue sur le site officiel de rubis community</h2>
 
                         </div>
 
-                        <div data-CutBackContent3>
+                        <div data-CutBackSepContent2  id ="GetCutBackSepContent2">
 
-                            <!-- text new page contents -->
+                            <!-- Logos Main Header Content -->
 
-                            <p data-TextNewPresentationPage>
+                            <img data-LogosMainHeaderContent id ="GetLogosMainHeaderContent" src ="asset/header/Logos.png"/>
+
+                        </div>
+
+                        <div data-CutBackSepContent3  id ="GetCutBackSepContent3">
+
+                            <!-- text explication Web Site main Header -->
+
+                            <p data-TextExplicationWebSiteMainHeader id ="GetTextExplicationWebSiteMainHeader">
 
                                 "Rubis Community" site web communautés active sur Youtube,<br/>
                                 Insta, Discord bienvenue. notre but rendait la communauté.<br/>
@@ -135,6 +139,7 @@
 
         <!-- script Event Style Animation -->
 
+        <script type ="text/javascript" src ="js/VariableGetElement.js"></script>
         <script type ="text/javascript" src ="js/AnimHeadMenu.js"></script>
 
     </body>
